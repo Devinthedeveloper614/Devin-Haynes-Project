@@ -1,0 +1,79 @@
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Header Styling */
+header {
+    background-color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    transform: rotateY(180deg); /* 3D effect */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Styling */
+main {
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+section img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    transform: rotateY(180deg); /* 3D effect */
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+/* Footer Styling */
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
