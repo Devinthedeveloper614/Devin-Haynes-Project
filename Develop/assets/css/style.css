@@ -1,0 +1,137 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+    color: #333;
+    min-width: 50%;
+}
+nav {
+    background-color: #385776;
+    color: white;
+    text-align: right;
+    font-size: x-large;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#horiseon-text {
+    display:inline-flex;
+    font-size: 70px; /* Adjust the font size as needed */
+    margin-right: 0; /* Reset the right margin to 0 */
+    margin-left: 20px; /* Add some space to the left of the text */
+    position: absolute;
+    top: -26px; /* Align the text with the top of the navigation bar */
+    left: 10px; /* Adjust the left position to align with the list items */
+    padding-bottom: 200px; /* Add space at the bottom of the text */
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 20px 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav img {
+    width: 100%;
+    height: auto;
+}
+/* Section Styles */
+/* Commit: Style the sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #2872BC;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: 450px;
+}
+.section {
+    display: flex;
+    align-items: center;
+}
+.left-image {
+    max-width: 50%; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust as needed */
+}
+.right-image {
+    max-width: 50%; /* Adjust the width as needed */
+    margin-left: 20px; /* Adjust as needed */
+}
+#online-reputation-management {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+#online-reputation-management .content {
+    flex: 1;
+}
+#online-reputation-management img {
+    width: 50%;
+    max-width: 50%; /* Adjust the width as needed */
+    margin-left: 20px; /* Adjust as needed */
+    align-items: end;
+}
+.content {
+    flex: 1;
+}
+.benefits {
+    margin: 0;
+    padding: 5px;
+    color: white;
+    background-color: #2589BD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    float: right;
+    position: absolute;
+    top: 150.5%; /* Adjust this value to center vertically */
+    transform: translateY(-10%);
+    right: 0;
+    height: calc(179vh - 0px); /* Set the height to 100% of the viewport height minus the nav bar height */
+    text-align: center;
+    margin-right: 100px; /* Add spacing to the right */
+    padding-bottom: 0%;
+}
+.benefits img {
+    width: fit-content;
+    max-width: 279px;
+    height: 50%;
+    transform: rotateY(30deg);
+    align-items: center;
+}
+.article {
+    text-align: center;
+    margin-top: 20px;
+}
+section img {
+    width: 50%;
+    max-width: 768px;
+    height: auto;
+    transform: rotateY(30deg);
+}
+h1, h2, h3 {
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    nav img {
+        width: 80px;
+    }
+    section img {
+        max-width: 150px;
+    }
+}
+@media screen and (max-width: 480px) {
+    nav img {
+        width: 60px;
+    }
+    section img {
+        max-width: 100px;
+    }
+}
